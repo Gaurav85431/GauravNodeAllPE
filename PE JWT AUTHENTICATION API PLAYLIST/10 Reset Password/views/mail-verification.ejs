@@ -1,0 +1,14 @@
+<!-- we will use interpolation <% %> -->
+
+<!-- hm check karenge ki agar message ka type undefined nhi hai to hm variable ko show kra denge. -->
+
+<!-- agar id ka length same hoga original id se lekin kuch incorrect character hoga to User Not Found dega -->
+<!-- ydi id ka length bahoot chhota ya bada de to err dega 404 Not Found -->
+
+<% if(typeof (message) !=='undefined' ){ %>
+
+  <h2>
+    <%= message %>
+  </h2>
+
+  <% } %>
